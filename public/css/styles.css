@@ -1,0 +1,79 @@
+body {
+    text-align: center;
+    margin: 0;
+    background-image: -webkit-linear-gradient(#EF9F9F, #FAD4D4);
+}
+
+p {
+  display: inline-block;
+}
+
+input[type="text"] {
+  border: hidden;
+  border-radius: 25px;
+  padding: 20px;
+  font-family: 'Nunito Sans', sans-serif;
+  color: gray;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  
+}
+
+input[type="checkbox"] {
+  height: 16px;
+  width: 16px;
+}
+
+input[type="checkbox"]:checked+p {
+  text-decoration: line-through;
+}
+
+
+button[type="Submit"] {
+  text-align: center;
+  border-radius: 50%;
+  border: hidden;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: auto auto;
+  background-color: #F47C7C;
+  color: white;
+  font-size: 28px;
+}
+
+button[type="Submit"]:hover {
+  background-color: #EF9F9F;
+  cursor: pointer;
+}
+
+.item {
+  border-bottom: 1px solid lightgray;
+  
+  color: grey;
+  padding: 10px;
+  font-size: larger;
+}
+
+#big-heading {
+    padding: 10px;
+    color: white;
+    background-color: #F47C7C;
+    border-radius: 25px;
+    display: inline-block;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#list-container {
+    text-align: left;
+    background-color: white;
+    width: fit-content;
+    margin: 0 auto 10%;
+    border-radius: 25px;
+    font-family: 'Nunito Sans', sans-serif;
+  
+}
+
